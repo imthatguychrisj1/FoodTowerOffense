@@ -4571,7 +4571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52ad152093e45714a8249900511bad23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypointContainer: {fileID: 756128640}
+  waypointContainer: {fileID: 756128642}
   speed: 10
   minimumDistance: 3
 --- !u!1001 &1129693428

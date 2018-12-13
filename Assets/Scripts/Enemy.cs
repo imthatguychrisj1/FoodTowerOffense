@@ -2,16 +2,37 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour {
+public class Enemy : MonoBehaviour
+{
 
-    public GameObject waypointContainer;
+    public Transform waypointContainer;
     public float speed = 3f;
     public float minimumDistance = 3f;
 
     private Transform[] waypoints;
-    private int currentWaypoint;
+    private int currentWaypoint = 0;
 
     void Start()
+    {
+        GetWaypoints();
+    }
+
+    void FixedUpdate()
+    {
+        Vector3 relativeWaypointPosition = transform.InverseTransformPoint(new Vector3(waypoints[currentWaypoint].position.x,
+            transform.position.y, waypoints[currentWaypoint].position.z));
+
+        if ((transform.position - waypoints[currentWaypoint].position).magnitude < minimumDistance)
+        {
+            currentWaypoint += 1;
+            if (currentWaypoint == waypoints.Length)
+            {
+                currentWaypoint = 0;
+            }
+        }
+    }
+
+    private void GetWaypoints()
     {
         Transform[] potentialWaypoints = waypointContainer.GetComponentsInChildren<Transform>();
         waypoints = new Transform[potentialWaypoints.Length - 1];
@@ -22,15 +43,18 @@ public class Enemy : MonoBehaviour {
         }
     }
 
-    void Update()
+    public Transform GetCurrentWaypoint()
     {
-        if ((transform.position - waypoints[currentWaypoint].position).magnitude < minimumDistance)
+        return waypoints[currentWaypoint];
+    }
+
+    public Transform GetLastWaypoint()
+    {
+        if (currentWaypoint - 1 < 0)
         {
-            currentWaypoint += 1;
-            if (currentWaypoint == waypoints.Length)
-            {
-                currentWaypoint = 0;
-            }
+            return waypoints[waypoints.Length - 1];
         }
+
+        return waypoints[currentWaypoint - 1];
     }
 }
