@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour {
 
     public GameObject waypointContainer;
+    public float speed = 3f;
     public float minimumDistance = 3f;
 
     private Transform[] waypoints;
