@@ -2,24 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Waypoints : MonoBehaviour {
+public class waypoints : MonoBehaviour {
 
-    public float size = 1f;
-    public Color color = Color.yellow;
-    private Transform[] waypoints;
+    public GameObject[] Waypoints;
+    int current = 0;
+    public float speed;
+    float WPradius = 1;
 
-    private void OnDrawGizmos()
-    {
-        waypoints = GetComponentsInChildren<Transform>();
-        Vector3 last = waypoints[waypoints.Length - 1].position;
 
-        for (int i = 1; i < waypoints.Length; i++)
+	// Update is called once per frame
+	void Update () {
+		
+        if (Vector3.Distance(Waypoints[current].transform.position, transform.position) < WPradius)
         {
-            Gizmos.color = color;
-            Gizmos.DrawSphere(waypoints[i].position, size);
-            Gizmos.DrawLine(last, waypoints[i].position);
-            last = waypoints[i].position;
-            waypoints[i].gameObject.name = "waypoint" + i;
+            current++;
+
+            if (current >= Waypoints.Length)
+            {
+                
+                Destroy(this.gameObject);
+                current = 0;
+            }
         }
-    }
+
+        transform.position = Vector3.MoveTowards(transform.position, Waypoints[current].transform.position, Time.deltaTime * speed);
+	}
 }
