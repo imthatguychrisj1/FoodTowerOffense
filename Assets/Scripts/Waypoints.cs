@@ -11,14 +11,14 @@ public class Waypoints : MonoBehaviour {
     private void OnDrawGizmos()
     {
         waypoints = GetComponentsInChildren<Transform>();
-        //Vector3 last = waypoints[waypoints.Length - 1].position;
+        Vector3 last = waypoints[waypoints.Length - 1].position;
 
         for (int i = 1; i < waypoints.Length; i++)
         {
             Gizmos.color = color;
             Gizmos.DrawSphere(waypoints[i].position, size);
-            //Gizmos.DrawLine(waypoints[i].position);
-            //last = waypoints[i].position;
+            Gizmos.DrawLine(last, waypoints[i].position);
+            last = waypoints[i].position;
             waypoints[i].gameObject.name = "waypoint" + i;
         }
     }

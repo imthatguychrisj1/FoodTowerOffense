@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-
+    public float waypointProximity = 25f;
     public Transform waypointContainer;
     public float speed = 3f;
     public float minimumDistance = 3f;
@@ -20,9 +20,11 @@ public class Enemy : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 relativeWaypointPosition = transform.InverseTransformPoint(new Vector3(waypoints[currentWaypoint].position.x,
-            transform.position.y, waypoints[currentWaypoint].position.z));
+        transform.position.y, waypoints[currentWaypoint].position.z));
 
-        if ((transform.position - waypoints[currentWaypoint].position).magnitude < minimumDistance)
+        Vector3 localVelocity = transform.InverseTransformDirection(GetComponent<Rigidbody>().velocity);
+
+        if (relativeWaypointPosition.magnitude < waypointProximity)
         {
             currentWaypoint += 1;
             if (currentWaypoint == waypoints.Length)
