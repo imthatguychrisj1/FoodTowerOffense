@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class PlaceTower : MonoBehaviour {
 
-    public GameObject towerPrefab;
+    //public GameObject towerPrefab;
+    public GameObject breadTower;
     private GameObject tower;
+
+
 
     private bool CanPlaceTower()
     {
@@ -13,17 +16,15 @@ public class PlaceTower : MonoBehaviour {
     }
 
     //1
-    void OnMouseUp()
+    void OnMouseDown()
     {
         //2
         if (CanPlaceTower())
-        {
-            //3
-            tower = (GameObject)
-                Instantiate(towerPrefab, transform.position, Quaternion.identity);
 
+            tower = (GameObject)Instantiate(breadTower, transform.position, transform.rotation);
+            Debug.Log("Tower Placed!");
             // TODO: Deduct gold
-        }
+        
     }
 
 
