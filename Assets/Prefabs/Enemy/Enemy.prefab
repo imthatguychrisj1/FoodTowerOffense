@@ -112,7 +112,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14dbf21200d03054ab189402757e8893, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Waypoints: []
+  Waypoints:
+  - {fileID: 1507752006786140, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1219667184665264, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1140083236133056, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1347408350852224, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1393560177434912, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1059752541824460, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1405386222213434, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1623709270057076, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1418440770356274, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1184253258104830, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1968977788023924, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1257063854465102, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1404020617411358, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1587301224995058, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1465558833756762, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1588940668332244, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
   speed: 100
 --- !u!135 &135594038484771810
 SphereCollider:
