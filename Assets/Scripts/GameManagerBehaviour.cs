@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour {
+public class GameManagerBehaviour : MonoBehaviour {
 
     public Text healthLabel;
     public GameObject[] healthIndicator;
@@ -37,13 +37,6 @@ public class GameManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Health = 3;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        GameManager gameManager =
-            GameObject.Find("GameManager").GetComponent<GameManager>();
-        gameManager.Health -= 1;
+        Health = 5;
 	}
 }
