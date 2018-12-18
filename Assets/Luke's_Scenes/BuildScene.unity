@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 111579520}
   - component: {fileID: 111579519}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: TowerActionBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -200,7 +200,7 @@ RectTransform:
   m_Children:
   - {fileID: 814851717}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -295,21 +295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breadTower: {fileID: 1766325561650442, guid: 54d371a867f934d47b152c9f17d9016a, type: 2}
-  carrotTower: {fileID: 1517417735904346, guid: 7d1e92f374dbb5d44b3cc535acda5e4e,
-    type: 2}
-  cheeseTower: {fileID: 1277801338605016, guid: 1a6ad6d541f18ec409f06d59a0e2d674,
-    type: 2}
-  chocolateTower: {fileID: 1683765464090826, guid: a45b9c803e3ce4643a1de081974b015e,
-    type: 2}
-  eggTower: {fileID: 1573443895915966, guid: 3c16ae6203bf0a3479761f022f12eaf6, type: 2}
-  meatTower: {fileID: 1676757832049382, guid: 249ec340c920efe4286013aa9994d4a1, type: 2}
-  milkTower: {fileID: 1795647991754536, guid: 63022fb2699d8684d9e9249e08c774b3, type: 2}
-  pepperTower: {fileID: 1843799182777658, guid: 252e6b26981e11f4bbc944ac0116c6e8,
-    type: 2}
-  potatoTower: {fileID: 1980215078485760, guid: 6fbb6f130793ec94ca3f28dc58569e77,
-    type: 2}
-  tomatoTower: {fileID: 1717836805002284, guid: af0309f8b90b63147b9d507572cf9bc8,
+  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!65 &321588567
 BoxCollider:
@@ -399,12 +385,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 366603890}
-        m_MethodName: Select
-        m_Mode: 1
+      - m_Target: {fileID: 2098396650}
+        m_MethodName: PickTower
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 366603893}
+          m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -454,7 +440,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 366603888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1b11fe382cb574895e21a13c017637, type: 3}
+  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   towerPrefab: {fileID: 1843799182777658, guid: 252e6b26981e11f4bbc944ac0116c6e8,
@@ -535,12 +521,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 435828593}
-        m_MethodName: Select
-        m_Mode: 1
+      - m_Target: {fileID: 2098396650}
+        m_MethodName: PickTower
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 435828596}
+          m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -590,7 +576,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 435828591}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1b11fe382cb574895e21a13c017637, type: 3}
+  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   towerPrefab: {fileID: 1676757832049382, guid: 249ec340c920efe4286013aa9994d4a1,
@@ -632,7 +618,7 @@ Transform:
   - {fileID: 669653550}
   - {fileID: 1586382762}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &471490727
 GameObject:
@@ -676,21 +662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breadTower: {fileID: 1766325561650442, guid: 54d371a867f934d47b152c9f17d9016a, type: 2}
-  carrotTower: {fileID: 1517417735904346, guid: 7d1e92f374dbb5d44b3cc535acda5e4e,
-    type: 2}
-  cheeseTower: {fileID: 1277801338605016, guid: 1a6ad6d541f18ec409f06d59a0e2d674,
-    type: 2}
-  chocolateTower: {fileID: 1683765464090826, guid: a45b9c803e3ce4643a1de081974b015e,
-    type: 2}
-  eggTower: {fileID: 1573443895915966, guid: 3c16ae6203bf0a3479761f022f12eaf6, type: 2}
-  meatTower: {fileID: 1676757832049382, guid: 249ec340c920efe4286013aa9994d4a1, type: 2}
-  milkTower: {fileID: 1795647991754536, guid: 63022fb2699d8684d9e9249e08c774b3, type: 2}
-  pepperTower: {fileID: 1843799182777658, guid: 252e6b26981e11f4bbc944ac0116c6e8,
-    type: 2}
-  potatoTower: {fileID: 1980215078485760, guid: 6fbb6f130793ec94ca3f28dc58569e77,
-    type: 2}
-  tomatoTower: {fileID: 1717836805002284, guid: af0309f8b90b63147b9d507572cf9bc8,
+  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!65 &471490730
 BoxCollider:
@@ -892,12 +864,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 611903036}
-        m_MethodName: Select
-        m_Mode: 1
+      - m_Target: {fileID: 2098396650}
+        m_MethodName: PickTower
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 611903039}
+          m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -947,7 +919,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 611903034}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1b11fe382cb574895e21a13c017637, type: 3}
+  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   towerPrefab: {fileID: 1277801338605016, guid: 1a6ad6d541f18ec409f06d59a0e2d674,
@@ -1028,12 +1000,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 667332822}
-        m_MethodName: Select
-        m_Mode: 1
+      - m_Target: {fileID: 2098396650}
+        m_MethodName: PickTower
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 667332825}
+          m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1083,7 +1055,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 667332820}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1b11fe382cb574895e21a13c017637, type: 3}
+  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   towerPrefab: {fileID: 1795647991754536, guid: 63022fb2699d8684d9e9249e08c774b3,
@@ -1130,21 +1102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breadTower: {fileID: 1766325561650442, guid: 54d371a867f934d47b152c9f17d9016a, type: 2}
-  carrotTower: {fileID: 1517417735904346, guid: 7d1e92f374dbb5d44b3cc535acda5e4e,
-    type: 2}
-  cheeseTower: {fileID: 1277801338605016, guid: 1a6ad6d541f18ec409f06d59a0e2d674,
-    type: 2}
-  chocolateTower: {fileID: 1683765464090826, guid: a45b9c803e3ce4643a1de081974b015e,
-    type: 2}
-  eggTower: {fileID: 1573443895915966, guid: 3c16ae6203bf0a3479761f022f12eaf6, type: 2}
-  meatTower: {fileID: 1676757832049382, guid: 249ec340c920efe4286013aa9994d4a1, type: 2}
-  milkTower: {fileID: 1795647991754536, guid: 63022fb2699d8684d9e9249e08c774b3, type: 2}
-  pepperTower: {fileID: 1843799182777658, guid: 252e6b26981e11f4bbc944ac0116c6e8,
-    type: 2}
-  potatoTower: {fileID: 1980215078485760, guid: 6fbb6f130793ec94ca3f28dc58569e77,
-    type: 2}
-  tomatoTower: {fileID: 1717836805002284, guid: af0309f8b90b63147b9d507572cf9bc8,
+  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!65 &669653552
 BoxCollider:
@@ -1246,21 +1204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breadTower: {fileID: 1766325561650442, guid: 54d371a867f934d47b152c9f17d9016a, type: 2}
-  carrotTower: {fileID: 1517417735904346, guid: 7d1e92f374dbb5d44b3cc535acda5e4e,
-    type: 2}
-  cheeseTower: {fileID: 1277801338605016, guid: 1a6ad6d541f18ec409f06d59a0e2d674,
-    type: 2}
-  chocolateTower: {fileID: 1683765464090826, guid: a45b9c803e3ce4643a1de081974b015e,
-    type: 2}
-  eggTower: {fileID: 1573443895915966, guid: 3c16ae6203bf0a3479761f022f12eaf6, type: 2}
-  meatTower: {fileID: 1676757832049382, guid: 249ec340c920efe4286013aa9994d4a1, type: 2}
-  milkTower: {fileID: 1795647991754536, guid: 63022fb2699d8684d9e9249e08c774b3, type: 2}
-  pepperTower: {fileID: 1843799182777658, guid: 252e6b26981e11f4bbc944ac0116c6e8,
-    type: 2}
-  potatoTower: {fileID: 1980215078485760, guid: 6fbb6f130793ec94ca3f28dc58569e77,
-    type: 2}
-  tomatoTower: {fileID: 1717836805002284, guid: af0309f8b90b63147b9d507572cf9bc8,
+  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!65 &734876425
 BoxCollider:
@@ -1362,21 +1306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breadTower: {fileID: 1766325561650442, guid: 54d371a867f934d47b152c9f17d9016a, type: 2}
-  carrotTower: {fileID: 1517417735904346, guid: 7d1e92f374dbb5d44b3cc535acda5e4e,
-    type: 2}
-  cheeseTower: {fileID: 1277801338605016, guid: 1a6ad6d541f18ec409f06d59a0e2d674,
-    type: 2}
-  chocolateTower: {fileID: 1683765464090826, guid: a45b9c803e3ce4643a1de081974b015e,
-    type: 2}
-  eggTower: {fileID: 1573443895915966, guid: 3c16ae6203bf0a3479761f022f12eaf6, type: 2}
-  meatTower: {fileID: 1676757832049382, guid: 249ec340c920efe4286013aa9994d4a1, type: 2}
-  milkTower: {fileID: 1795647991754536, guid: 63022fb2699d8684d9e9249e08c774b3, type: 2}
-  pepperTower: {fileID: 1843799182777658, guid: 252e6b26981e11f4bbc944ac0116c6e8,
-    type: 2}
-  potatoTower: {fileID: 1980215078485760, guid: 6fbb6f130793ec94ca3f28dc58569e77,
-    type: 2}
-  tomatoTower: {fileID: 1717836805002284, guid: af0309f8b90b63147b9d507572cf9bc8,
+  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!65 &805691269
 BoxCollider:
@@ -1539,7 +1469,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &917151787
 GameObject:
@@ -1617,12 +1547,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 917151789}
-        m_MethodName: Select
-        m_Mode: 1
+      - m_Target: {fileID: 2098396650}
+        m_MethodName: PickTower
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 917151792}
+          m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1672,7 +1602,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 917151787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1b11fe382cb574895e21a13c017637, type: 3}
+  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   towerPrefab: {fileID: 1683765464090826, guid: a45b9c803e3ce4643a1de081974b015e,
@@ -1753,12 +1683,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1075230824}
-        m_MethodName: Select
-        m_Mode: 1
+      - m_Target: {fileID: 2098396650}
+        m_MethodName: PickTower
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1075230827}
+          m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1808,7 +1738,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1075230822}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1b11fe382cb574895e21a13c017637, type: 3}
+  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   towerPrefab: {fileID: 1980215078485760, guid: 6fbb6f130793ec94ca3f28dc58569e77,
@@ -1855,21 +1785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breadTower: {fileID: 1766325561650442, guid: 54d371a867f934d47b152c9f17d9016a, type: 2}
-  carrotTower: {fileID: 1517417735904346, guid: 7d1e92f374dbb5d44b3cc535acda5e4e,
-    type: 2}
-  cheeseTower: {fileID: 1277801338605016, guid: 1a6ad6d541f18ec409f06d59a0e2d674,
-    type: 2}
-  chocolateTower: {fileID: 1683765464090826, guid: a45b9c803e3ce4643a1de081974b015e,
-    type: 2}
-  eggTower: {fileID: 1573443895915966, guid: 3c16ae6203bf0a3479761f022f12eaf6, type: 2}
-  meatTower: {fileID: 1676757832049382, guid: 249ec340c920efe4286013aa9994d4a1, type: 2}
-  milkTower: {fileID: 1795647991754536, guid: 63022fb2699d8684d9e9249e08c774b3, type: 2}
-  pepperTower: {fileID: 1843799182777658, guid: 252e6b26981e11f4bbc944ac0116c6e8,
-    type: 2}
-  potatoTower: {fileID: 1980215078485760, guid: 6fbb6f130793ec94ca3f28dc58569e77,
-    type: 2}
-  tomatoTower: {fileID: 1717836805002284, guid: af0309f8b90b63147b9d507572cf9bc8,
+  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!65 &1195999456
 BoxCollider:
@@ -1999,7 +1915,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1406795564
 GameObject:
@@ -2046,10 +1962,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1406795564}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1b11fe382cb574895e21a13c017637, type: 3}
+  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1766325561650442, guid: 54d371a867f934d47b152c9f17d9016a,
+  towerPrefab: {fileID: 1572968719869414, guid: 54d371a867f934d47b152c9f17d9016a,
     type: 2}
 --- !u!114 &1406795567
 MonoBehaviour:
@@ -2090,12 +2006,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1406795567}
-        m_MethodName: Select
-        m_Mode: 1
+      - m_Target: {fileID: 2098396650}
+        m_MethodName: PickTower
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1406795566}
+          m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2290,12 +2206,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1577845204}
-        m_MethodName: Select
-        m_Mode: 1
+      - m_Target: {fileID: 2098396650}
+        m_MethodName: PickTower
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1577845207}
+          m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2345,7 +2261,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1577845202}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1b11fe382cb574895e21a13c017637, type: 3}
+  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   towerPrefab: {fileID: 1717836805002284, guid: af0309f8b90b63147b9d507572cf9bc8,
@@ -2392,21 +2308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breadTower: {fileID: 1766325561650442, guid: 54d371a867f934d47b152c9f17d9016a, type: 2}
-  carrotTower: {fileID: 1517417735904346, guid: 7d1e92f374dbb5d44b3cc535acda5e4e,
-    type: 2}
-  cheeseTower: {fileID: 1277801338605016, guid: 1a6ad6d541f18ec409f06d59a0e2d674,
-    type: 2}
-  chocolateTower: {fileID: 1683765464090826, guid: a45b9c803e3ce4643a1de081974b015e,
-    type: 2}
-  eggTower: {fileID: 1573443895915966, guid: 3c16ae6203bf0a3479761f022f12eaf6, type: 2}
-  meatTower: {fileID: 1676757832049382, guid: 249ec340c920efe4286013aa9994d4a1, type: 2}
-  milkTower: {fileID: 1795647991754536, guid: 63022fb2699d8684d9e9249e08c774b3, type: 2}
-  pepperTower: {fileID: 1843799182777658, guid: 252e6b26981e11f4bbc944ac0116c6e8,
-    type: 2}
-  potatoTower: {fileID: 1980215078485760, guid: 6fbb6f130793ec94ca3f28dc58569e77,
-    type: 2}
-  tomatoTower: {fileID: 1717836805002284, guid: af0309f8b90b63147b9d507572cf9bc8,
+  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!65 &1586382764
 BoxCollider:
@@ -2508,21 +2410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breadTower: {fileID: 1766325561650442, guid: 54d371a867f934d47b152c9f17d9016a, type: 2}
-  carrotTower: {fileID: 1517417735904346, guid: 7d1e92f374dbb5d44b3cc535acda5e4e,
-    type: 2}
-  cheeseTower: {fileID: 1277801338605016, guid: 1a6ad6d541f18ec409f06d59a0e2d674,
-    type: 2}
-  chocolateTower: {fileID: 1683765464090826, guid: a45b9c803e3ce4643a1de081974b015e,
-    type: 2}
-  eggTower: {fileID: 1573443895915966, guid: 3c16ae6203bf0a3479761f022f12eaf6, type: 2}
-  meatTower: {fileID: 1676757832049382, guid: 249ec340c920efe4286013aa9994d4a1, type: 2}
-  milkTower: {fileID: 1795647991754536, guid: 63022fb2699d8684d9e9249e08c774b3, type: 2}
-  pepperTower: {fileID: 1843799182777658, guid: 252e6b26981e11f4bbc944ac0116c6e8,
-    type: 2}
-  potatoTower: {fileID: 1980215078485760, guid: 6fbb6f130793ec94ca3f28dc58569e77,
-    type: 2}
-  tomatoTower: {fileID: 1717836805002284, guid: af0309f8b90b63147b9d507572cf9bc8,
+  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!65 &1679622531
 BoxCollider:
@@ -2624,21 +2512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breadTower: {fileID: 1766325561650442, guid: 54d371a867f934d47b152c9f17d9016a, type: 2}
-  carrotTower: {fileID: 1517417735904346, guid: 7d1e92f374dbb5d44b3cc535acda5e4e,
-    type: 2}
-  cheeseTower: {fileID: 1277801338605016, guid: 1a6ad6d541f18ec409f06d59a0e2d674,
-    type: 2}
-  chocolateTower: {fileID: 1683765464090826, guid: a45b9c803e3ce4643a1de081974b015e,
-    type: 2}
-  eggTower: {fileID: 1573443895915966, guid: 3c16ae6203bf0a3479761f022f12eaf6, type: 2}
-  meatTower: {fileID: 1676757832049382, guid: 249ec340c920efe4286013aa9994d4a1, type: 2}
-  milkTower: {fileID: 1795647991754536, guid: 63022fb2699d8684d9e9249e08c774b3, type: 2}
-  pepperTower: {fileID: 1843799182777658, guid: 252e6b26981e11f4bbc944ac0116c6e8,
-    type: 2}
-  potatoTower: {fileID: 1980215078485760, guid: 6fbb6f130793ec94ca3f28dc58569e77,
-    type: 2}
-  tomatoTower: {fileID: 1717836805002284, guid: af0309f8b90b63147b9d507572cf9bc8,
+  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!65 &1773185812
 BoxCollider:
@@ -2774,12 +2648,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1817868736}
-        m_MethodName: Select
-        m_Mode: 1
+      - m_Target: {fileID: 2098396650}
+        m_MethodName: PickTower
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1817868739}
+          m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2829,7 +2703,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1817868734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1b11fe382cb574895e21a13c017637, type: 3}
+  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   towerPrefab: {fileID: 1573443895915966, guid: 3c16ae6203bf0a3479761f022f12eaf6,
@@ -2910,12 +2784,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1819405463}
-        m_MethodName: Select
-        m_Mode: 1
+      - m_Target: {fileID: 2098396650}
+        m_MethodName: PickTower
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1819405466}
+          m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2965,7 +2839,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1819405461}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1b11fe382cb574895e21a13c017637, type: 3}
+  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   towerPrefab: {fileID: 1517417735904346, guid: 7d1e92f374dbb5d44b3cc535acda5e4e,
@@ -3058,21 +2932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breadTower: {fileID: 1766325561650442, guid: 54d371a867f934d47b152c9f17d9016a, type: 2}
-  carrotTower: {fileID: 1517417735904346, guid: 7d1e92f374dbb5d44b3cc535acda5e4e,
-    type: 2}
-  cheeseTower: {fileID: 1277801338605016, guid: 1a6ad6d541f18ec409f06d59a0e2d674,
-    type: 2}
-  chocolateTower: {fileID: 1683765464090826, guid: a45b9c803e3ce4643a1de081974b015e,
-    type: 2}
-  eggTower: {fileID: 1573443895915966, guid: 3c16ae6203bf0a3479761f022f12eaf6, type: 2}
-  meatTower: {fileID: 1676757832049382, guid: 249ec340c920efe4286013aa9994d4a1, type: 2}
-  milkTower: {fileID: 1795647991754536, guid: 63022fb2699d8684d9e9249e08c774b3, type: 2}
-  pepperTower: {fileID: 1843799182777658, guid: 252e6b26981e11f4bbc944ac0116c6e8,
-    type: 2}
-  potatoTower: {fileID: 1980215078485760, guid: 6fbb6f130793ec94ca3f28dc58569e77,
-    type: 2}
-  tomatoTower: {fileID: 1717836805002284, guid: af0309f8b90b63147b9d507572cf9bc8,
+  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!65 &1956188619
 BoxCollider:
@@ -3086,6 +2946,46 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 1.28, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2098396649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2098396651}
+  - component: {fileID: 2098396650}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2098396650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2098396649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f39638327ccef45a8b05b276ca2cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2098396651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2098396649}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 321.05392, y: 107.87961, z: -308.245}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2143971682
 GameObject:
   m_ObjectHideFlags: 0
@@ -3128,21 +3028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breadTower: {fileID: 1766325561650442, guid: 54d371a867f934d47b152c9f17d9016a, type: 2}
-  carrotTower: {fileID: 1517417735904346, guid: 7d1e92f374dbb5d44b3cc535acda5e4e,
-    type: 2}
-  cheeseTower: {fileID: 1277801338605016, guid: 1a6ad6d541f18ec409f06d59a0e2d674,
-    type: 2}
-  chocolateTower: {fileID: 1683765464090826, guid: a45b9c803e3ce4643a1de081974b015e,
-    type: 2}
-  eggTower: {fileID: 1573443895915966, guid: 3c16ae6203bf0a3479761f022f12eaf6, type: 2}
-  meatTower: {fileID: 1676757832049382, guid: 249ec340c920efe4286013aa9994d4a1, type: 2}
-  milkTower: {fileID: 1795647991754536, guid: 63022fb2699d8684d9e9249e08c774b3, type: 2}
-  pepperTower: {fileID: 1843799182777658, guid: 252e6b26981e11f4bbc944ac0116c6e8,
-    type: 2}
-  potatoTower: {fileID: 1980215078485760, guid: 6fbb6f130793ec94ca3f28dc58569e77,
-    type: 2}
-  tomatoTower: {fileID: 1717836805002284, guid: af0309f8b90b63147b9d507572cf9bc8,
+  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!65 &2143971685
 BoxCollider:

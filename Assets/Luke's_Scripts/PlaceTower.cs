@@ -5,10 +5,8 @@ using UnityEngine;
 public class PlaceTower : MonoBehaviour {
 
     //public GameObject towerPrefab;
-    public GameObject breadTower;
     private GameObject tower;
-
-
+    public GameObject towerPrefab;
 
     private bool CanPlaceTower()
     {
@@ -21,21 +19,10 @@ public class PlaceTower : MonoBehaviour {
         //2
         if (CanPlaceTower())
 
-            tower = (GameObject)Instantiate(breadTower, transform.position, transform.rotation);
+            tower = (GameObject)Instantiate(GameManager.Instance.ClickedBtn.towerPrefab, transform.position, transform.rotation);
             Debug.Log("Tower Placed!");
             // TODO: Deduct gold
         
     }
 
-
-
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
