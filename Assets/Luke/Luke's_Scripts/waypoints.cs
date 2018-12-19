@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class waypoints : MonoBehaviour {
+public class waypoints : MonoBehaviour
+{
 
     public GameObject[] Waypoints;
     int current = 0;
     public float speed;
-    float WPradius = 1;
+    float WPradius = 0.1f;
 
 
-	// Update is called once per frame
-	void Update () {
-		
+    // Update is called once per frame
+    void Update()
+    {
+
         if (Vector3.Distance(Waypoints[current].transform.position, transform.position) < WPradius)
         {
             current++;
@@ -25,5 +27,5 @@ public class waypoints : MonoBehaviour {
         }
 
         transform.position = Vector3.MoveTowards(transform.position, Waypoints[current].transform.position, Time.deltaTime * speed);
-	}
+    }
 }
