@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class waypoints : MonoBehaviour
+public class Waypoint_Level2 : MonoBehaviour
 {
 
     public GameObject[] Waypoints;
