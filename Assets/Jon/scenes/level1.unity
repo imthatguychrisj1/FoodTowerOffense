@@ -113,34 +113,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &51106705
+--- !u!1 &51106705 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 51106706}
-  m_Layer: 0
-  m_Name: waypoints (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &51106706
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 51106705}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.86, y: 3.09, z: -1}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1301401047}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_CorrespondingSourceObject: {fileID: 1563189539988770, guid: 6ea8020b71c06f3438dd388a9c3bacc2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1383224231}
 --- !u!1 &111579518
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,62 +212,16 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &165611208
+--- !u!1 &165611208 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 165611209}
-  m_Layer: 0
-  m_Name: waypoints (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &165611209
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 165611208}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9, y: 0.56, z: -1}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1301401047}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &222697872
+  m_CorrespondingSourceObject: {fileID: 1224795416986490, guid: 6ea8020b71c06f3438dd388a9c3bacc2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1383224231}
+--- !u!1 &222697872 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 222697873}
-  m_Layer: 0
-  m_Name: waypoints (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &222697873
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 222697872}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.25, y: -3.28, z: -1}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1301401047}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_CorrespondingSourceObject: {fileID: 1210887365819440, guid: 6ea8020b71c06f3438dd388a9c3bacc2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1383224231}
 --- !u!1 &321588563
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,11 +307,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 321588563}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: 13f39638327ccef45a8b05b276ca2cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
-    type: 2}
 --- !u!65 &321588567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -393,34 +322,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 1.28, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &366447573
+--- !u!1 &366447573 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 366447574}
-  m_Layer: 0
-  m_Name: waypoints (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &366447574
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 366447573}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.81, y: -1.97, z: -1}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1301401047}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_CorrespondingSourceObject: {fileID: 1347104136327746, guid: 6ea8020b71c06f3438dd388a9c3bacc2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1383224231}
 --- !u!1 &366603888
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,7 +407,7 @@ MonoBehaviour:
         m_MethodName: PickTower
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 366603893}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -552,10 +458,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 366603888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: ec6c3c40384cfe8408e3728b82f1ea06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1843799182777658, guid: 252e6b26981e11f4bbc944ac0116c6e8,
+  towerPrefab: {fileID: 1682482986180416, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!1 &435828591
 GameObject:
@@ -637,7 +543,7 @@ MonoBehaviour:
         m_MethodName: PickTower
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 435828596}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -688,10 +594,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 435828591}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: ec6c3c40384cfe8408e3728b82f1ea06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1676757832049382, guid: 249ec340c920efe4286013aa9994d4a1,
+  towerPrefab: {fileID: 1023258013769014, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!1 &455452493
 GameObject:
@@ -770,11 +676,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 471490727}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: 13f39638327ccef45a8b05b276ca2cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
-    type: 2}
 --- !u!65 &471490730
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -899,34 +803,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 21.012001, y: 53.393, z: -247.911}
---- !u!1 &590468286
+--- !u!1 &590468286 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 590468287}
-  m_Layer: 0
-  m_Name: waypoints (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &590468287
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 590468286}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.33, y: -1.87, z: -1}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1301401047}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_CorrespondingSourceObject: {fileID: 1392801516317860, guid: 6ea8020b71c06f3438dd388a9c3bacc2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1383224231}
 --- !u!1 &611903034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,7 +888,7 @@ MonoBehaviour:
         m_MethodName: PickTower
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 611903039}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1058,39 +939,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 611903034}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: ec6c3c40384cfe8408e3728b82f1ea06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1277801338605016, guid: 1a6ad6d541f18ec409f06d59a0e2d674,
+  towerPrefab: {fileID: 1437870846381046, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
---- !u!1 &619094734
+--- !u!1 &619094734 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 619094735}
-  m_Layer: 0
-  m_Name: waypoints (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &619094735
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 619094734}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.16, y: 0.66, z: -1}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1301401047}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_CorrespondingSourceObject: {fileID: 1094533673373166, guid: 6ea8020b71c06f3438dd388a9c3bacc2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1383224231}
 --- !u!1 &667332820
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,7 +1029,7 @@ MonoBehaviour:
         m_MethodName: PickTower
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 667332825}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1222,10 +1080,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 667332820}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: ec6c3c40384cfe8408e3728b82f1ea06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1795647991754536, guid: 63022fb2699d8684d9e9249e08c774b3,
+  towerPrefab: {fileID: 1787610926461476, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!1 &734876422
 GameObject:
@@ -1266,11 +1124,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 734876422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: 13f39638327ccef45a8b05b276ca2cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
-    type: 2}
 --- !u!65 &734876425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1368,11 +1224,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 805691266}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: 13f39638327ccef45a8b05b276ca2cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
-    type: 2}
 --- !u!65 &805691269
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1616,7 +1470,7 @@ MonoBehaviour:
         m_MethodName: PickTower
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 917151792}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1667,67 +1521,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 917151787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: ec6c3c40384cfe8408e3728b82f1ea06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1683765464090826, guid: a45b9c803e3ce4643a1de081974b015e,
+  towerPrefab: {fileID: 1100924787009650, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
---- !u!1 &988477840
+--- !u!1 &988477840 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 988477841}
-  m_Layer: 0
-  m_Name: waypoints (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &988477841
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 988477840}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.81, y: -3.24, z: -1}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1301401047}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1044168953
+  m_CorrespondingSourceObject: {fileID: 1942056129817898, guid: 6ea8020b71c06f3438dd388a9c3bacc2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1383224231}
+--- !u!1 &1044168953 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1044168954}
-  m_Layer: 0
-  m_Name: waypoints
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1044168954
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1044168953}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.61, y: 3.09, z: -1}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1301401047}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_CorrespondingSourceObject: {fileID: 1453940595401570, guid: 6ea8020b71c06f3438dd388a9c3bacc2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1383224231}
 --- !u!1 &1075230822
 GameObject:
   m_ObjectHideFlags: 0
@@ -1808,7 +1616,7 @@ MonoBehaviour:
         m_MethodName: PickTower
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1075230827}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1859,10 +1667,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1075230822}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: ec6c3c40384cfe8408e3728b82f1ea06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1980215078485760, guid: 6fbb6f130793ec94ca3f28dc58569e77,
+  towerPrefab: {fileID: 1154061683465156, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!1 &1195999453
 GameObject:
@@ -1903,11 +1711,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1195999453}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: 13f39638327ccef45a8b05b276ca2cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
-    type: 2}
 --- !u!65 &1195999456
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1966,34 +1772,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1203828253
+--- !u!1 &1203828253 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1203828254}
-  m_Layer: 0
-  m_Name: waypoints (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1203828254
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1203828253}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.26, y: -3.19, z: -0.99999994}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1301401047}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_CorrespondingSourceObject: {fileID: 1785916769608180, guid: 6ea8020b71c06f3438dd388a9c3bacc2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1383224231}
 --- !u!1001 &1225723848
 Prefab:
   m_ObjectHideFlags: 0
@@ -2036,58 +1819,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dedf05b7655d1147a71afa8246b0aa1, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1301401045
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1301401047}
-  - component: {fileID: 1301401046}
-  m_Layer: 0
-  m_Name: Waypoints
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1301401046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1301401045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8739d235d5f3b6c47b997f8cb2a015df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  size: 0.25
-  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
---- !u!4 &1301401047
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1301401045}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.31459492, y: 0.84252876, z: -0.33745056}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1044168954}
-  - {fileID: 51106706}
-  - {fileID: 165611209}
-  - {fileID: 619094735}
-  - {fileID: 222697873}
-  - {fileID: 1619872361}
-  - {fileID: 590468287}
-  - {fileID: 366447574}
-  - {fileID: 988477841}
-  - {fileID: 1203828254}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1352849961
 GameObject:
   m_ObjectHideFlags: 0
@@ -2130,6 +1861,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1383224231
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4826358539528812, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.31459492
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826358539528812, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.84252876
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826358539528812, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.33745056
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826358539528812, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826358539528812, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826358539528812, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826358539528812, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826358539528812, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1406795564
 GameObject:
   m_ObjectHideFlags: 0
@@ -2175,10 +1948,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1406795564}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: ec6c3c40384cfe8408e3728b82f1ea06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1572968719869414, guid: 54d371a867f934d47b152c9f17d9016a,
+  towerPrefab: {fileID: 1744215164660256, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!114 &1406795567
 MonoBehaviour:
@@ -2223,7 +1996,7 @@ MonoBehaviour:
         m_MethodName: PickTower
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1406795566}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2423,7 +2196,7 @@ MonoBehaviour:
         m_MethodName: PickTower
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1577845207}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2474,10 +2247,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1577845202}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: ec6c3c40384cfe8408e3728b82f1ea06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1717836805002284, guid: af0309f8b90b63147b9d507572cf9bc8,
+  towerPrefab: {fileID: 1088999673079548, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!1 &1586382761
 GameObject:
@@ -2518,11 +2291,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1586382761}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: 13f39638327ccef45a8b05b276ca2cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
-    type: 2}
 --- !u!65 &1586382764
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2581,34 +2352,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1619872360
+--- !u!1 &1619872360 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1619872361}
-  m_Layer: 0
-  m_Name: waypoints (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1619872361
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1619872360}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.28, y: -3.28, z: -1}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1301401047}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_CorrespondingSourceObject: {fileID: 1764032169226250, guid: 6ea8020b71c06f3438dd388a9c3bacc2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1383224231}
 --- !u!1 &1679622528
 GameObject:
   m_ObjectHideFlags: 0
@@ -2648,11 +2396,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1679622528}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: 13f39638327ccef45a8b05b276ca2cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
-    type: 2}
 --- !u!65 &1679622531
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2842,11 +2588,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1773185809}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: 13f39638327ccef45a8b05b276ca2cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
-    type: 2}
 --- !u!65 &1773185812
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2985,7 +2729,7 @@ MonoBehaviour:
         m_MethodName: PickTower
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1817868739}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3036,10 +2780,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1817868734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: ec6c3c40384cfe8408e3728b82f1ea06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1573443895915966, guid: 3c16ae6203bf0a3479761f022f12eaf6,
+  towerPrefab: {fileID: 1776743760427338, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!1 &1819405461
 GameObject:
@@ -3121,7 +2865,7 @@ MonoBehaviour:
         m_MethodName: PickTower
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1819405466}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: PlaceTower, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3172,10 +2916,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1819405461}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: ec6c3c40384cfe8408e3728b82f1ea06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1517417735904346, guid: 7d1e92f374dbb5d44b3cc535acda5e4e,
+  towerPrefab: {fileID: 1489100253794388, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
     type: 2}
 --- !u!1 &1909967701
 GameObject:
@@ -3337,11 +3081,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1956188615}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: 13f39638327ccef45a8b05b276ca2cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
-    type: 2}
 --- !u!65 &1956188619
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3433,11 +3175,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2143971682}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0705936ab49b1a343a782d3bdb39e037, type: 3}
+  m_Script: {fileID: 11500000, guid: 13f39638327ccef45a8b05b276ca2cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1495825323725058, guid: 05434d0fc6d5efb4f8fbb16c21504f87,
-    type: 2}
 --- !u!65 &2143971685
 BoxCollider:
   m_ObjectHideFlags: 0

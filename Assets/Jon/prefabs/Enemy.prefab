@@ -79,16 +79,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1453940595401570, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+  - {fileID: 1563189539988770, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+  - {fileID: 1224795416986490, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+  - {fileID: 1094533673373166, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+  - {fileID: 1210887365819440, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+  - {fileID: 1764032169226250, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+  - {fileID: 1392801516317860, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+  - {fileID: 1347104136327746, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+  - {fileID: 1942056129817898, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
+  - {fileID: 1785916769608180, guid: 6ea8020b71c06f3438dd388a9c3bacc2, type: 2}
   speed: 5
 --- !u!212 &212594060596408990
 SpriteRenderer:
