@@ -19,7 +19,7 @@ public class waypoints : MonoBehaviour
         {
             current++;
 
-            if (current >= Waypoints.Length)
+            if (current == Waypoints.Length)
             {
                 current = 0;
                 Destroy(this.gameObject);
