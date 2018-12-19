@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7cb8eaefdc3af8949b9593fda6d6be51
+guid: 02694a85c63dfe6488852d34806cbe3a
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -11,7 +11,8 @@ TrueTypeFontImporter:
   fontName: 8-bit pusab
   fontNames:
   - 8-bit pusab
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7cb8eaefdc3af8949b9593fda6d6be51, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
