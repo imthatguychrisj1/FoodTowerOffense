@@ -32,10 +32,6 @@ public class WaveSpawner : MonoBehaviour {
 
     void Update()
     {
-        GameManagerBehaviour gameManager =
-        GameObject.Find("GameManager").GetComponent<GameManagerBehaviour>();
-        gameManager.Health -= 1;
-
         if (state == SpawnState.WAITING)
         {
             //Check if enemies are still alive
