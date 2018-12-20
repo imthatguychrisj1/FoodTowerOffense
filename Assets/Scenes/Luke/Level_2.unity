@@ -150,7 +150,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4919954705180286, guid: 0c4b7136ffe08c941805740d7a8e9c4f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.76
+      value: -3.2
       objectReference: {fileID: 0}
     - target: {fileID: 4919954705180286, guid: 0c4b7136ffe08c941805740d7a8e9c4f, type: 2}
       propertyPath: m_LocalPosition.y
@@ -158,7 +158,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4919954705180286, guid: 0c4b7136ffe08c941805740d7a8e9c4f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.011
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4919954705180286, guid: 0c4b7136ffe08c941805740d7a8e9c4f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -212,18 +212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db39b030f2bdf934faafb4a1cb743eed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Waypoints:
-  - {fileID: 59114317}
-  - {fileID: 1729802163}
-  - {fileID: 2050502230}
-  - {fileID: 791696586}
-  - {fileID: 335474885}
-  - {fileID: 611789075}
-  - {fileID: 709878360}
-  - {fileID: 659780644}
-  - {fileID: 226326480}
-  - {fileID: 1991757171}
-  speed: 5
 --- !u!61 &109963380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -324,7 +312,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
