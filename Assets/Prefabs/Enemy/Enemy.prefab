@@ -128,22 +128,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1507752006786140, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1219667184665264, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1140083236133056, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1347408350852224, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1393560177434912, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1059752541824460, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1405386222213434, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1623709270057076, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1418440770356274, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1184253258104830, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1968977788023924, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1257063854465102, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1404020617411358, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1587301224995058, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1465558833756762, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
-  - {fileID: 1588940668332244, guid: 62094d5fd983a21498c5ddbd5b6f035f, type: 2}
+  - {fileID: 1574939604015588, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1787283012295496, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1612290006517738, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1542690980390890, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1432048093526198, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1596976456791112, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1786319814393338, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1634494740876658, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1865160357288002, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1278990549741014, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
   speed: 100
 --- !u!114 &114983334258606786
 MonoBehaviour:
