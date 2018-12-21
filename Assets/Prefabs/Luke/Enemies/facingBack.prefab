@@ -20,9 +20,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4919954705180286}
   - component: {fileID: 212080073019786898}
+  - component: {fileID: 114370239714076802}
   m_Layer: 0
   m_Name: facingBack
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33,13 +34,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1965442660194956}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.73, y: -3.13, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114370239714076802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1965442660194956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14dbf21200d03054ab189402757e8893, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 1508338684986334, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1436654762637174, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1849736013693900, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1165350819077838, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1013090657051894, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1320181091836070, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1031422766908876, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1357550305640608, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1968976789860132, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  - {fileID: 1127633509621518, guid: fe88dffbd7d0dfb4a8811f24df763aaf, type: 2}
+  speed: 5
 --- !u!212 &212080073019786898
 SpriteRenderer:
   m_ObjectHideFlags: 1

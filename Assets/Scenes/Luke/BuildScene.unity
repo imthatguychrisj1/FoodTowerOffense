@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 366603890}
   - component: {fileID: 366603893}
   m_Layer: 5
-  m_Name: PepperTower
+  m_Name: PepperButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 435828593}
   - component: {fileID: 435828596}
   m_Layer: 5
-  m_Name: MeatTower
+  m_Name: MeatButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -800,7 +800,7 @@ GameObject:
   - component: {fileID: 611903036}
   - component: {fileID: 611903039}
   m_Layer: 5
-  m_Name: CheeseTower
+  m_Name: CheeseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -936,7 +936,7 @@ GameObject:
   - component: {fileID: 667332822}
   - component: {fileID: 667332825}
   m_Layer: 5
-  m_Name: MilkTower
+  m_Name: MilkButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1381,7 +1381,7 @@ GameObject:
   - component: {fileID: 917151789}
   - component: {fileID: 917151792}
   m_Layer: 5
-  m_Name: ChocolateTower
+  m_Name: ChocolateButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1517,7 +1517,7 @@ GameObject:
   - component: {fileID: 1075230824}
   - component: {fileID: 1075230827}
   m_Layer: 5
-  m_Name: PotatoTower
+  m_Name: PotatoButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1827,7 +1827,7 @@ GameObject:
   - component: {fileID: 1406795567}
   - component: {fileID: 1406795566}
   m_Layer: 5
-  m_Name: BreadTower
+  m_Name: BreadButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2040,7 +2040,7 @@ GameObject:
   - component: {fileID: 1577845204}
   - component: {fileID: 1577845207}
   m_Layer: 5
-  m_Name: TomatoTower
+  m_Name: TomatoButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2482,7 +2482,7 @@ GameObject:
   - component: {fileID: 1817868736}
   - component: {fileID: 1817868739}
   m_Layer: 5
-  m_Name: EggTower
+  m_Name: EggButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2618,7 +2618,7 @@ GameObject:
   - component: {fileID: 1819405463}
   - component: {fileID: 1819405466}
   m_Layer: 5
-  m_Name: CarrotTower
+  m_Name: CarrotButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2713,7 +2713,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: af6a9d528e68f4149815c7b7c6ee419a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 76ac8111568932b4da900ba5595dde14, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -8,7 +8,6 @@ public class HealthBar : MonoBehaviour {
     public float currentHealth = 100;
     private float originalScale;
 
-
     // Use this for initialization
     void Start () {
         originalScale = gameObject.transform.localScale.x;

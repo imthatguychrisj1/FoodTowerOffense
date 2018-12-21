@@ -32,9 +32,9 @@ public class WaveSpawner : MonoBehaviour {
 
     void Update()
     {
-        GameManagerBehaviour gameManager =
-        GameObject.Find("GameManager").GetComponent<GameManagerBehaviour>();
-        gameManager.Health -= 1;
+        GameManager gameManager =
+        GameObject.Find("GameManager").GetComponent<GameManager>();
+        //Health.health -= 1;
 
         if (state == SpawnState.WAITING)
         {

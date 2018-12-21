@@ -7,7 +7,7 @@ public class Waypoints : MonoBehaviour {
     public GameObject[] waypoints;
     int current = 0;
     public float speed;
-    float WPradius = 1;
+    float WPradius = 0.1f;
 
 
 	// Update is called once per frame

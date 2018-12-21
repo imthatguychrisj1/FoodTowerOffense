@@ -9,7 +9,7 @@ public class HitBoxDetection : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        HealthBar script = other.GetComponent<HealthBar>();
+        HealthBars script = other.GetComponent<HealthBars>();
 
         if (script)
         {

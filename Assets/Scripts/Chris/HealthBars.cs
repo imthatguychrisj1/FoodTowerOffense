@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour {
+public class HealthBars : MonoBehaviour {
 
     public Vector2 startPoint;
     public Texture2D[] images;
